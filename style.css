@@ -1,0 +1,57 @@
+.top-buttons button{
+    color: white;
+    background-color: rgb(8, 8, 114);
+    cursor: pointer;
+    margin-right: 30px;
+    height: 35px;
+    width: 100px;
+    justify-content: flex-start;
+    position:relative;
+    left: 30%;
+}
+.top-buttons button:hover{
+    opacity: 0.7;
+}
+.introParagraph{
+
+    font-size: 18px;
+    color: black;
+    font-family: Arial, sans-serif, bold;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #c0c0c0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
+}
+h1, h2, h3, h4{
+    color:rgb(8, 8, 114);
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-line: overline;
+
+}
+h5{
+    color:black;
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+.normal-paragraph{
+    background-color: #d9d4d4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.home-button button{
+    border: 0cqh;
+    background-color: rgb(176, 176, 176);
+    border-radius: 10px;
+    width: 100px;
+    
+
+}
