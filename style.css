@@ -1,3 +1,6 @@
+.body{
+    background-color: rgb(210, 194, 194);
+}
 .top-buttons button{
     color: white;
     background-color: rgb(8, 8, 114);
@@ -8,6 +11,17 @@
     justify-content: flex-start;
     position:relative;
     left: 30%;
+}
+.continue-button button{
+    color: white;
+    background-color: rgb(8, 8, 114);
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    left: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .top-buttons button:hover{
     opacity: 0.7;
@@ -46,7 +60,15 @@ h5{
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
 }
-
+.welcome-paragraph{
+    background-color: #d9d4d4;
+    padding: 40px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
+}
 .home-button button{
     border: 0cqh;
     background-color: rgb(176, 176, 176);
@@ -54,4 +76,30 @@ h5{
     width: 100px;
     
 
+}
+.padlets-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly around each padlet */
+    flex-wrap: wrap; /* Allows padlets to wrap to the next line if they overflow */
+    margin: 20px;
+}
+
+.padlet {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* Grow to fit the container */
+    min-width: 200px; /* Minimum width of each padlet */
+    max-width: 300px; /* Maximum width of each padlet */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.padlet h5 {
+    margin-top: 0;
+}
+
+.padlet p {
+    margin: 0px;
 }
